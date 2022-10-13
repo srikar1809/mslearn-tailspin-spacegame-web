@@ -9,7 +9,7 @@ trigger:
 pool:
   name: 'MyAgent'
   demands:
-- npm
+  - npm
 variables:
   solution: '**/*.sln'
   buildPlatform: 'Any CPU'
